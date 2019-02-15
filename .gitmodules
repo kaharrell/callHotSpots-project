@@ -1,3 +1,6 @@
 [submodule "scripts/callHotspotsSSDS"]
 	path = scripts/callHotspotsSSDS
 	url = https://github.com/kevbrick/callHotspotsSSDS
+[submodule "scripts/SSDSpipeline"]
+	path = scripts/SSDSpipeline
+	url = https://github.com/kevbrick/SSDSpipeline
