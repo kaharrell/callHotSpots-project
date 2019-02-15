@@ -1,0 +1,3 @@
+[submodule "scripts/callHotspotsSSDS"]
+	path = scripts/callHotspotsSSDS
+	url = https://github.com/kevbrick/callHotspotsSSDS
