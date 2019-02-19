@@ -1,0 +1,44 @@
+INFO  @ Tue, 19 Feb 2019 10:13:06: 
+# Command line: callpeak --ratio 0.334443809559602 -g 30000000 -t /tmp/dmc1SSDS_CHSdemo.chstestgenome.ssDNA_type1.uniq.bed -c /tmp/IgG_SSDS_CHSdemo.chstestgenome.ssDNA_type1.uniq.bed --bw 1000 --keep-dup all --slocal 5000 --name /home/kailey/callHotSpots-project/scripts/SSDS_callHotspots_1.0.0/unitTest/output/callHotspotsTest
+# ARGUMENTS LIST:
+# name = /home/kailey/callHotSpots-project/scripts/SSDS_callHotspots_1.0.0/unitTest/output/callHotspotsTest
+# format = AUTO
+# ChIP-seq file = ['/tmp/dmc1SSDS_CHSdemo.chstestgenome.ssDNA_type1.uniq.bed']
+# control file = ['/tmp/IgG_SSDS_CHSdemo.chstestgenome.ssDNA_type1.uniq.bed']
+# effective genome size = 3.00e+07
+# band width = 1000
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Using a custom scaling factor: 3.34e-01
+# Range for calculating regional lambda is: 5000 bps and 10000 bps
+# Broad region calling is off
+ 
+INFO  @ Tue, 19 Feb 2019 10:13:06: #1 read tag files... 
+INFO  @ Tue, 19 Feb 2019 10:13:06: #1 read treatment tags... 
+INFO  @ Tue, 19 Feb 2019 10:13:06: Detected format is: BED 
+INFO  @ Tue, 19 Feb 2019 10:13:06: #1.2 read input tags... 
+INFO  @ Tue, 19 Feb 2019 10:13:06: Detected format is: BED 
+INFO  @ Tue, 19 Feb 2019 10:13:06: #1 tag size is determined as 153 bps 
+INFO  @ Tue, 19 Feb 2019 10:13:06: #1 tag size = 153 
+INFO  @ Tue, 19 Feb 2019 10:13:06: #1  total tags in treatment: 56630 
+INFO  @ Tue, 19 Feb 2019 10:13:06: #1  total tags in control: 129086 
+INFO  @ Tue, 19 Feb 2019 10:13:06: #1 finished! 
+INFO  @ Tue, 19 Feb 2019 10:13:06: #2 Build Peak Model... 
+INFO  @ Tue, 19 Feb 2019 10:13:06: #2 looking for paired plus/minus strand peaks... 
+INFO  @ Tue, 19 Feb 2019 10:13:06: #2 number of paired peaks: 104 
+WARNING @ Tue, 19 Feb 2019 10:13:06: Fewer paired peaks (104) than 1000! Model may not be build well! Lower your MFOLD parameter may erase this warning. Now I will use 104 pairs to build model! 
+INFO  @ Tue, 19 Feb 2019 10:13:06: start model_add_line... 
+INFO  @ Tue, 19 Feb 2019 10:13:06: start X-correlation... 
+INFO  @ Tue, 19 Feb 2019 10:13:06: end of X-cor 
+INFO  @ Tue, 19 Feb 2019 10:13:06: #2 finished! 
+INFO  @ Tue, 19 Feb 2019 10:13:06: #2 predicted fragment length is 888 bps 
+INFO  @ Tue, 19 Feb 2019 10:13:06: #2 alternative fragment length(s) may be 739,799,828,888,928,954,990,1011,1029,1189,1951 bps 
+INFO  @ Tue, 19 Feb 2019 10:13:06: #2.2 Generate R script for model : /home/kailey/callHotSpots-project/scripts/SSDS_callHotspots_1.0.0/unitTest/output/callHotspotsTest_model.r 
+INFO  @ Tue, 19 Feb 2019 10:13:06: #3 Call peaks... 
+INFO  @ Tue, 19 Feb 2019 10:13:06: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Tue, 19 Feb 2019 10:13:07: #3 Call peaks for each chromosome... 
+INFO  @ Tue, 19 Feb 2019 10:13:07: #4 Write output xls file... /home/kailey/callHotSpots-project/scripts/SSDS_callHotspots_1.0.0/unitTest/output/callHotspotsTest_peaks.xls 
+INFO  @ Tue, 19 Feb 2019 10:13:07: #4 Write peak in narrowPeak format file... /home/kailey/callHotSpots-project/scripts/SSDS_callHotspots_1.0.0/unitTest/output/callHotspotsTest_peaks.narrowPeak 
+INFO  @ Tue, 19 Feb 2019 10:13:07: #4 Write summits bed file... /home/kailey/callHotSpots-project/scripts/SSDS_callHotspots_1.0.0/unitTest/output/callHotspotsTest_summits.bed 
+INFO  @ Tue, 19 Feb 2019 10:13:07: Done! 
