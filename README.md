@@ -1,4 +1,5 @@
 #**Bioinformatics**
+-Kailey Harrell
 -callHotSpots-project
 
 -This repository is to track the progress of my final bioinformatics project as I attempt to replicate a chosen figure from a paper using their published source code and material
