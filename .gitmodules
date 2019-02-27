@@ -4,3 +4,6 @@
 [submodule "scripts/SSDSpipeline"]
 	path = scripts/SSDSpipeline
 	url = https://github.com/kevbrick/SSDSpipeline
+[submodule "scripts/SSDS_pipeline"]
+	path = scripts/SSDS_pipeline
+	url = https://github.com/kevbrick/SSDSpipeline
