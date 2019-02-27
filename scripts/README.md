@@ -6,5 +6,7 @@ cloned github repository callHotspotsSSDS from github into this directory via th
 cloned github respository SSDSpipeline from github into this directory via the command:
 	`git submodule add https://github.com/kevbrick/SSDSpipeline scripts/SSDSpipeline`
 
-
+##2019-02-27##
+ran `sudo configure.sh` for SSDS_pipeline_1.0.0
+attempted unitTest `sh runTest.sh` but got an error message --> have to attempt manual installation which can be found in the README
  
